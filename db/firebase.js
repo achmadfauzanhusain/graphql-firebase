@@ -17,5 +17,6 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 const db = getFirestore();
 const colHobby = collection(db, "hobbies");
+const colPeople = collection(db, "peoples");
 
-export { db, colHobby }
+export { db, colHobby, colPeople }
